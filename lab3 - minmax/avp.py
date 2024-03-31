@@ -2,14 +2,17 @@ from exceptions import GameplayException
 from connect4 import Connect4
 from randomagent import RandomAgent
 from minmaxagent import MinMaxAgent
+from alphabetaagent import AlphaBetaAgent
 
 connect4 = Connect4(width=7, height=6)
-agent = MinMaxAgent('x')
+agent1 = RandomAgent('x')
+agent2 = MinMaxAgent('x')
+agent3 = AlphaBetaAgent('x')
 while not connect4.game_over:
     connect4.draw()
     try:
-        if connect4.who_moves == agent.my_token:
-            n_column = agent.decide(connect4)
+        if connect4.who_moves == agent2.my_token:
+            n_column = agent2.decide(connect4)
         else:
             n_column = int(input(':'))
         connect4.drop_token(n_column)
