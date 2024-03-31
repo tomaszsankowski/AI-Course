@@ -11,7 +11,7 @@ class AlphaBetaAgent:
     def decide(self, connect4):
         if connect4.who_moves != self.my_token:
             raise AgentException('not my round')
-        return self.alphabeta(connect4, 4, float('-inf'), float('inf'), True)[1]
+        return self.alphabeta(connect4, 4, -1000, 1000, True)[1]
 
     def alphabeta(self, connect4, depth, alpha, beta, is_maximizing):
         best_move = None
