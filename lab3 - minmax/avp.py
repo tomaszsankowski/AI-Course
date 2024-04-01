@@ -6,7 +6,7 @@ from alphabetaagent import AlphaBetaAgent
 
 connect4 = Connect4(width=7, height=6)
 agent1 = RandomAgent('x')
-agent2 = MinMaxAgent('x')
+agent2 = MinMaxAgent('o')
 agent3 = AlphaBetaAgent('x')
 while not connect4.game_over:
     connect4.draw()
