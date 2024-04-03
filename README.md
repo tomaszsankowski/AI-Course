@@ -1,5 +1,5 @@
 # Python
-Python projects consisting of:
+Python projects consists of:
 
-- Labs and projects from Artifical Intelligence course
+- Labs and projects from the Artificial Intelligence course
 - Numerical methods projects
