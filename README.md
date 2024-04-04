@@ -1,2 +1,5 @@
-# AI-Course
-Labs and projects from Artifical Intelligence course from 4th semester of Somputer Science.
+# Python
+Python projects consists of:
+
+- Labs and projects from the Artificial Intelligence course
+- Numerical methods projects
