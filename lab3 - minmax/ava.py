@@ -8,15 +8,15 @@ connect4 = Connect4(width=7, height=6)
 agent1 = RandomAgent('o')
 agent2 = MinMaxAgent('x', 5, True)
 agent3 = MinMaxAgent('o', 5, False)
-agent4 = AlphaBetaAgent('o', 6, 1)
-agent5 = AlphaBetaAgent('x', 6, 2)
+agent4 = AlphaBetaAgent('x', 5, 3)
+agent5 = AlphaBetaAgent('o', 5, 0)
 while not connect4.game_over:
     connect4.draw()
     try:
-        if connect4.who_moves == agent4.my_token:
-            n_column = agent4.decide(connect4)
+        if connect4.who_moves == agent2.my_token:
+            n_column = agent2.decide(connect4)
         else:
-            n_column = agent5.decide(connect4)
+            n_column = agent3.decide(connect4)
         print(n_column)
         connect4.drop_token(n_column)
     except (ValueError, GameplayException):
