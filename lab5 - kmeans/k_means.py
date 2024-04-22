@@ -12,7 +12,7 @@ def initialize_centroids_forgy(data, k):
 def initialize_centroids_kmeans_pp(data, k):
     # TODO implement kmeans++ initialization
 
-    centroids = [data[np.random.choice(data.shape[0], size=1, replace=False)][0].tolist()]
+    centroids = [data[np.random.choice(len(data))].tolist()]
 
     for i in range(k-1):
         max_distance = -1

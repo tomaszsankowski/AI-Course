@@ -5,7 +5,7 @@ import numpy as np
 
 def load_iris():
     data = pd.read_csv("data/iris.data", names=["sepal_length", "sepal_width", "petal_length", "petal_width", "class"])
-    print(data)
+    # print(data)
     classes = data["class"].to_numpy()
     features = data.drop("class", axis=1).to_numpy()
     return features, classes
@@ -25,11 +25,11 @@ def clustering(kmeans_pp):
     intra_class_variance = []
     for i in range(100):
         assignments, centroids, error = k_means(features, 3, kmeans_pp)
-        evaluate(assignments, classes)
+        # evaluate(assignments, classes)
         intra_class_variance.append(error)
     print(f"Mean intra-class variance: {np.mean(intra_class_variance)}")
 
 
 if __name__ == "__main__":
-    # clustering(kmeans_pp=True)
+    clustering(kmeans_pp=True)
     clustering(kmeans_pp=False)
