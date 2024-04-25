@@ -20,7 +20,7 @@ def initialize_centroids_kmeans_pp(data, k):
         for data_point in data:
             data_point_list = data_point.tolist()
             if data_point_list not in centroids:
-                dist = max([np.sum((centroid - data_point)**2) for centroid in centroids])
+                dist = sum([np.sum((centroid - data_point)**2) for centroid in centroids])
                 if dist > max_distance:
                     max_distance = dist
                     data_to_add = data_point_list
@@ -34,7 +34,7 @@ def assign_to_cluster(data, centroids):
     for i in range(data.shape[0]):
         min_distance = np.inf
         for j in range(centroids.shape[0]):
-            distance = np.linalg.norm(data[i] - centroids[j])
+            distance = np.sum((centroids[j] - data[i])**2)
             if distance < min_distance:
                 min_distance = distance
                 assignments[i] = j
