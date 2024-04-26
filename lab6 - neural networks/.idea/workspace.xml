@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a1223f7a-184e-4ee7-baab-76016ca0abfd" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../lab5 - clustering/k_means.py" beforeDir="false" afterPath="$PROJECT_DIR$/../lab5 - clustering/k_means.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="a1223f7a-184e-4ee7-baab-76016ca0abfd" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -60,7 +56,7 @@
       <workItem from="1713822109703" duration="335000" />
       <workItem from="1713863755672" duration="9000" />
       <workItem from="1713863859239" duration="150000" />
-      <workItem from="1714082834259" duration="965000" />
+      <workItem from="1714082834259" duration="1376000" />
     </task>
     <servers />
   </component>
@@ -68,7 +64,7 @@
     <option name="version" value="3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/lab6___neural_networks$part2_net_training_in_pytorch.coverage" NAME="part2_net_training_in_pytorch Coverage Results" MODIFIED="1713822357950" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/lab6___neural_networks$part2_net_training_in_pytorch.coverage" NAME="part2_net_training_in_pytorch Coverage Results" MODIFIED="1714084154935" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/lab6___neural_networks$part1_net_architecture_in_numpy.coverage" NAME="part1_net_architecture_in_numpy Coverage Results" MODIFIED="1714083168688" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
